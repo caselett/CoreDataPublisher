@@ -1,0 +1,9 @@
+opt_in_rules:
+  - file_header
+  - implicit_return
+
+trailing_comma:
+  mandatory_comma: true
+
+file_header:
+  required_pattern: (\/|\s)*(SWIFTLINT_CURRENT_FILENAME|swift-tools-version)(.|\s)*
